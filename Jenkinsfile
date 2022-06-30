@@ -8,7 +8,9 @@ pipeline {
         stage("init") {
             steps {
                 script {
+                    echo "${env.getEnvironment()}"
                    gv = load "script.groovy" 
+                   
                 }
             }
         }
