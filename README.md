@@ -10,3 +10,5 @@ docker run -d --rm \
 --name=agent2 \
 --network jenkins \
 -p 8080:8080 `-e "JENKINS_AGENT_SSH_PUBKEY=[your-public-key]" `romani24/jenkins:0.8.0
+
+//1
