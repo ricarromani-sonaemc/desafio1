@@ -1,4 +1,4 @@
-/// guardado no volume -v jenkins_home:/var/jenkins_home \
+// guardado no volume -v jenkins_home:/var/jenkins_home \
 
 docker build . --tag romani24/jenkins:1.0
 
